@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ServiceCard =({index, title, icon})=>{
   return (
-    <Tilt className='xs:w-[230px] w-full'>
+    <Tilt className='xs:w-[230px] w-full mx-auto'>
       <motion.div
         variants={fadeIn("right","spring", 0.5*index, 0.75)}
         className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
@@ -49,7 +49,7 @@ function About() {
         Hi, I'm Natig Alizada, a passionate Frontend Developer from Baku, Azerbaijan. Currently pursuing a degree in Computer Engineering at Baku Higher Oil School, I specialize in creating responsive, user-friendly web applications. With experience in HTML, CSS, JavaScript, and React, I love turning creative ideas into functional and visually appealing digital experiences. Always eager to learn and collaborate, I strive to build impactful solutions that enhance user interaction. Let's create something amazing together!
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex w-1/2 flex-wrap gap-10'>
         {services.map((service, index)=>(
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
