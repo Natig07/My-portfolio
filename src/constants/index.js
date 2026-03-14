@@ -11,7 +11,9 @@ import {
     c4ir,
     bike_ecommerce,
     threejs,
-    cyberneticsMMC
+    cyberneticsMMC,
+    caspianInnovationCenter,
+    angular,
   } from "../assets";
   
   export const navLinks = [
@@ -58,6 +60,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Angular",
+      icon: angular,
+    },
+    {
       name: "Redux Toolkit",
       icon: redux,
     },
@@ -76,33 +82,58 @@ import {
   ];
   
   const experiences = [
-    {
-      title: "Frontend Developer Intern",
-      company_name: "Cybernetics MMC",
-      icon: cyberneticsMMC, // Replace with the actual icon variable
-      iconBg: "#383E56",
-      date: "June 2024 - July 2024",
-      points: [
-        "Developed a dynamic and user-friendly course website using HTML, CSS, and JavaScript.",
-        "Converted design team ideas into functional and visually appealing web features.",
-        "Ensured cross-browser compatibility and optimized website performance.",
-      ],
-    },
-    {
-      title: "Frontend Developer Intern",
-      company_name: "C4IR Azerbaijan",
-      icon: c4ir, // Replace with the actual icon variable
-      iconBg: "#E6DEDD",
-      date: "July 2024 - September 2024",
-      points: [
-        "Implemented dynamic and data-driven web pages using HTML, CSS, and JavaScript.",
-        "Developed responsive and user-friendly website features based on design team concepts.",
-        "Optimized website performance for various devices and browsers.",
-        "Collaborated with back-end developers to ensure seamless data integration into web pages.",
-      ],
-    },
+  {
+    title: "Frontend Developer Intern",
+    company_name: "Cybernetics MMC",
+    icon: cyberneticsMMC,
+    iconBg: "#383E56",
+    date: "June 2024 - July 2024",
+    points: [
+      "Developed a dynamic and user-friendly course website using HTML, CSS, and JavaScript.",
+      "Converted design team ideas into functional and visually appealing web features.",
+      "Ensured cross-browser compatibility and optimized website performance.",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern",
+    company_name: "C4IR Azerbaijan",
+    icon: c4ir,
+    iconBg: "#E6DEDD",
+    date: "July 2024 - September 2024",
+    points: [
+      "Implemented dynamic and data-driven web pages using HTML, CSS, and JavaScript.",
+      "Developed responsive and user-friendly website features based on design team concepts.",
+      "Optimized website performance for various devices and browsers.",
+      "Collaborated with back-end developers to ensure seamless data integration into web pages.",
+    ],
+  },
+  {
+    title: "Software Developer Intern",
+    company_name: "Caspian Innovation Center",
+    icon: caspianInnovationCenter, // add your logo variable
+    iconBg: "#383E56",
+    date: "April 2025 - December 2025",
+    points: [
+      "Developed frontend features for a Request Management System using Angular.",
+      "Implemented reusable Angular components, services, and routing integrated with REST APIs.",
+      "Built request forms, lists, and status tracking interfaces for internal workflows.",
+      "Collaborated with backend developers to ensure seamless data integration and consistent user experience.",
+    ],
+  },
+  {
+    title: "Frontend Developer Intern (SOCAR Young Talents Program)",
+    company_name: "Caspian Innovation Center",
+    icon: caspianInnovationCenter, // SOCAR or CIC icon
+    iconBg: "#E6DEDD",
+    date: "February 2026 - Present",
+    points: [
+      "Selected as one of the winners of SOCAR’s Young Talents Program 2026.",
+      "Working as a Frontend Developer Intern at the Caspian Innovation Center.",
+      "Developing and improving enterprise web interfaces using Angular, TypeScript, and modern frontend technologies.",
+      "Collaborating with backend developers and designers to build scalable and user-friendly systems.",
+    ],
+  },
 ];
-
   
   const projects = [
     {

@@ -13,11 +13,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import nodejs from "./tech/nodejs.png";
 
 import c4ir from "./company/c4ir.jpeg";
 import cyberneticsMMC from "./company/cyberneticsMMC.png";
+import angular from "./tech/angular.png";
+import caspianInnovationCenter from "./company/caspianInnovationCenter.jfif"
 
-import bike_ecommerce from './bike_ecommerce.png'
+import bike_ecommerce from './bike_ecommerce.png';
 
 export {
   logo,
@@ -38,4 +41,6 @@ export {
   c4ir,
   cyberneticsMMC,
   bike_ecommerce,
+  caspianInnovationCenter,
+  angular,
 };
